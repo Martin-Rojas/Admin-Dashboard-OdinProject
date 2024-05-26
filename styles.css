@@ -30,6 +30,31 @@ body {
   grid-row: 1/3;
 }
 
+.sidebar-left .logo-container {
+  margin-bottom: 20px;
+  /* display: grid; */
+  grid-auto-flow: column;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  justify-items: self-start;
+  align-items: center;
+}
+
+.sidebar-left .logo {
+    border: 2px solid rgb(113, 40, 40);
+  grid-row: 2/3;
+}
+.sidebar-left .logo-text {
+    grid-row: 2/3;
+    border: 3px solid rgb(223, 10, 223);
+}
+
+.sidebar-left .features-1 {
+  border: 1px solid black;
+}
+.sidebar-left .features-2 {
+  border: 1px solid black;
+}
 .main-content {
   border: 2px solid green;
   grid-column: 2/3;
